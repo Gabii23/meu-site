@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Conexões que Transformam</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -18,77 +18,78 @@
       </ul>
     </nav>
   </header>
-<section class="galeria" id="galeria">
-  <h2>Conexões em Imagens</h2>
-
-  <div class="item-galeria">
-    <img src="campo.png" alt="Tecnologia no campo">
-    <h3>Tecnologia no campo</h3>
-    <p>O uso de tecnologias como tratores modernos, drones e sensores facilita o plantio, a irrigação e a colheita, trazendo eficiência para os agricultores.</p>
-  </div>
-
-  <div class="item-galeria">
-    <img src="cidade.png" alt="Feira com produtos do campo na cidade">
-    <h3>Feira com produtos do campo na cidade</h3>
-    <p>As feiras são pontos de encontro onde produtores rurais vendem alimentos frescos diretamente aos moradores urbanos, fortalecendo a economia local.</p>
-  </div>
-
-  <div class="item-galeria">
-    <img src="conexao.png" alt="Educação rural e urbana se encontrando">
-    <h3>Educação rural e urbana se encontrando</h3>
-    <p>Projetos educacionais unem escolas do campo e da cidade para trocar experiências e promover o conhecimento sobre os dois ambientes.</p>
-  </div>
-</section>
   <main>
+    <section id="inicio">
+      <h2>Bem-vindo ao Site</h2>
+      <p>Este espaço celebra a conexão viva e essencial entre o campo e a cidade.</p>
+    </section>
     <section id="sobre">
       <h2>Sobre a Conexão Campo-Cidade</h2>
       <p>
         Campo e cidade parecem mundos diferentes, mas estão profundamente conectados. 
         O alimento que chega à nossa mesa, as tecnologias que facilitam a vida no campo, 
         os conhecimentos trocados entre quem planta e quem consome — tudo isso é parte de uma conexão viva e essencial.
-        <br><br>
+      </p>
+      <p>
         Este site celebra essas trocas, mostrando que quando o campo e a cidade se entendem, todos ganham.
       </p>
-      <img src="campo-cidade.jpg" alt="Imagem que representa o campo e a cidade conectados">
+      <img src="campo-cidade.jpg" alt="Imagem que representa o campo e a cidade conectados" />
     </section>
-
-   <section class="video" id="video">
+    <section id="video" class="video">
       <h2>Assista ao Vídeo</h2>
       <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/n8RcQM5MIr8" title="Conexão entre o campo e a cidade" frameborder="0" allowfullscreen></iframe>
+        <iframe 
+          width="560" height="315" 
+          src="https://www.youtube.com/embed/n8RcQM5MIr8" 
+          title="Conexão entre o campo e a cidade" 
+          frameborder="0" 
+          allowfullscreen>
+        </iframe>
       </div>
       <p class="creditos-video">
         Vídeo incorporado do canal <strong>Araribá Educação</strong>. Todos os direitos reservados aos criadores originais.
       </p>
     </section>
-
-    <section id="galeria">
-      <h2>Galeria: Conexões em Imagens</h2>
-      <div class="galeria">
-        <img src="imagem1.jpg" alt="Feira com produtos do campo na cidade">
-        <img src="imagem2.jpg" alt="Tecnologia no campo">
-        <img src="imagem3.jpg" alt="Educação rural e urbana se encontrando">
+    <section id="galeria" class="galeria">
+      <h2>Conexões em Imagens</h2>
+      <div class="item-galeria">
+        <img src="campo.png" alt="Tecnologia no campo" />
+        <h3>Tecnologia no campo</h3>
+        <p>
+          O uso de tecnologias como tratores modernos, drones e sensores facilita o plantio, 
+          a irrigação e a colheita, trazendo eficiência para os agricultores.
+        </p>
+      </div>
+      <div class="item-galeria">
+        <img src="cidade.png" alt="Feira com produtos do campo na cidade" />
+        <h3>Feira com produtos do campo na cidade</h3>
+        <p>
+          As feiras são pontos de encontro onde produtores rurais vendem alimentos frescos diretamente 
+          aos moradores urbanos, fortalecendo a economia local.
+        </p>
+      </div>
+      <div class="item-galeria">
+        <img src="conexao.png" alt="Educação rural e urbana se encontrando" />
+        <h3>Educação rural e urbana se encontrando</h3>
+        <p>
+          Projetos educacionais unem escolas do campo e da cidade para trocar experiências e promover o conhecimento sobre os dois ambientes.
+        </p>
       </div>
     </section>
-
     <section id="contato">
       <h2>Fale com a Gente</h2>
       <p>Tem alguma ideia sobre como melhorar a conexão entre o campo e a cidade? Envie pra gente!</p>
       <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
-
+        <input type="text" id="nome" name="nome" required />
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-
+        <input type="email" id="email" name="email" required />
         <label for="mensagem">Mensagem:</label>
         <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-
         <button type="submit">Enviar</button>
       </form>
     </section>
   </main>
-
   <footer>
     <p>🌾 Site criado com carinho por Gabrieli – Agrinho 2025 🌆</p>
   </footer>
