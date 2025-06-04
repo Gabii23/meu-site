@@ -2,35 +2,78 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title><Avanço das Tecnologias no Campo></title>
+  <title>Conexões que Transformam</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1><!-- NOME DO SITE OU TÍTULO PRINCIPAL AQUI --></h1>
+    <h1>Conexões que Transformam</h1>
     <nav>
       <ul>
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#video">Vídeo</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="sobre">
-      <h2><!-- TÍTULO DA SEÇÃO SOBRE AQUI --></h2>
-      <p><!-- TEXTO DA SEÇÃO SOBRE AQUI --></p>
+    <section id="sobre">
+      <h2>Sobre a Conexão Campo-Cidade</h2>
+      <p>
+        Campo e cidade parecem mundos diferentes, mas estão profundamente conectados. 
+        O alimento que chega à nossa mesa, as tecnologias que facilitam a vida no campo, 
+        os conhecimentos trocados entre quem planta e quem consome — tudo isso é parte de uma conexão viva e essencial.
+        <br><br>
+        Este site celebra essas trocas, mostrando que quando o campo e a cidade se entendem, todos ganham.
+      </p>
+      <img src="campo-cidade.jpg" alt="Imagem que representa o campo e a cidade conectados">
     </section>
 
-    <section class="conteudo">
-      <h2><!-- TÍTULO DA SEÇÃO DE CONTEÚDO AQUI --></h2>
-      <p><!-- TEXTO DA SEÇÃO DE CONTEÚDO AQUI --></p>
+    <section id="video">
+      <h2>Veja essa conexão na prática</h2>
+      <p>
+        Neste vídeo, conheça projetos que aproximam os produtores rurais das cidades, promovendo desenvolvimento, empatia e sustentabilidade:
+      </p>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TkSOGUHW_Qo" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria: Conexões em Imagens</h2>
+      <div class="galeria">
+        <img src="imagem1.jpg" alt="Feira com produtos do campo na cidade">
+        <img src="imagem2.jpg" alt="Tecnologia no campo">
+        <img src="imagem3.jpg" alt="Educação rural e urbana se encontrando">
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Fale com a Gente</h2>
+      <p>Tem alguma ideia sobre como melhorar a conexão entre o campo e a cidade? Envie pra gente!</p>
+      <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </main>
 
   <footer>
-    <p><!-- TEXTO DO RODAPÉ AQUI --></p>
+    <p>🌾 Site criado com carinho por Gabrieli – Agrinho 2025 🌆</p>
   </footer>
 </body>
 </html>
